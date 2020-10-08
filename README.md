@@ -9,6 +9,31 @@ Let's come together and contribute!!
   
 ---
 
+_Folder structure conventions for the **dataset-defination** branch of this project:_
+ 
+```
+    .
+    .
+    ├── Datasets                # Stores all the datasets used in the project
+    │
+    ├── Details                 # Detailed description about the datasets
+    │   │
+    │   ├── deliveries.md  
+    │   │
+    │   ├── matches.md  
+    │   │
+    │   ├── players.md  
+    │   .
+    │   .
+    │   └── ...   
+    │
+    ├── README.md  
+    │
+    └── ...
+```  
+  
+---
+
 
 ## Available Datasets :
 
@@ -16,7 +41,7 @@ Let's come together and contribute!!
  It has all the deliveries made by the players in a comma-seperated values format.  
  There are total **21** column-headers in this dataset.  
  It holds the dataset upto 2017  
- Click [here](./deliveries.md) for further details.  
+ Click [here](./Details/deliveries.md) for further details.  
 
 
 ✨ [matches.csv]( https://github.com/Team-thedatatribune/IPL-Analysis/blob/dataset-defination/Datasets/matches.csv) -   
@@ -24,14 +49,14 @@ Let's come together and contribute!!
  All the data are in a comma-seperated values format.  
  There are total **18** column-headers in this dataset.  
  It holds the dataset upto 2017   
- Click [here](./matches.md) for further details.  
+ Click [here](./Details/matches.md) for further details.  
 
 
 ✨ [players.csv]( https://github.com/Team-thedatatribune/IPL-Analysis/blob/dataset-defination/Datasets/players.csv) -   
  This file has information about all the players.  
  All the data are in a comma-seperated values format.  
  There are total **5** column-headers in this dataset.  
- Click [here](./players.md) for further details.  
+ Click [here](./Details/players.md) for further details.  
 
 ---
   
